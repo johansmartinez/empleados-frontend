@@ -1,27 +1,19 @@
-# FRONTEND
+# empleados-frontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.6.
+Este repositorio contiene la solución a la prueba técnica que describe el Frontend del siguiente problema:
 
-## Development server
+>Usar el archivo MOCK_DATA.json como fuente de datos para crear una aplicación que consuma el archivo como si se tratara de una API y muestre la información.
+> La primera pantalla es un listado de los usuarios obtenidos en el consumo del api, la pantalla consta de:  Filtro en la parte superior,Foto del usuario, Nombre del usuario,Correo electrónico del usuario, Botón para ver más información
+> La pantalla del detalle del usuario debe mostrar: La foto en la parte superior, El nombre del usuario debajo de la foto y al centro, El número de documento del usuario, El número de teléfono del usuario, La profesión del usuario, El país del usuario,La ciudad del usuario
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Descripción
+El presesente Frontend está escrito en Angular.
 
-## Build
+## Requisitos
+- Node.js
+- Navegador Web
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Librerías
+- Angular
