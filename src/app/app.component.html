@@ -1,0 +1,17 @@
+<div class="modal" *ngIf="modalService.visible" (click)="modalService.setVisible(false)">
+  <app-detalles></app-detalles>
+</div>
+<div class="container">
+  <h1 >GESTIÓN DE EMPLEADOS</h1>
+  <div class="empleados">
+    <input class="search-input" type="text" placeholder="Ingresa un nombre" [(ngModel)]="empleadosService.searchValue" (ngModelChange)="empleadosService.update()">
+    <div class="employee-card" *ngFor="let empleado of empleadosService.empleados">
+      <img [src]="empleado.avatar">
+      <div >
+        <span class="span-bold"> Nombre: </span> <span>{{empleado.nombre}} {{empleado.apellido}}</span><br>
+        <span class="span-bold"> Correo: </span> <span>{{empleado.correo}}</span><br>
+        <button class="datails-button" (click)="mostrarDetalles(empleado)">VER DETALLES</button>
+      </div>
+    </div>
+  </div>
+</div>

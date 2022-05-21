@@ -1,0 +1,98 @@
+.container{
+    margin: 40px auto;
+    width: 85vw;
+    padding: 20px;
+    background-color: white;
+    border: lightslategray 1px solid;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3.2rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.empleados{
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.search-input{
+    padding: 10px;
+    width: 100%;
+    font-size: 2.1rem;
+    border: lightslategray 1px solid;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.employee-card{
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.employee-card img{
+    width: 200px;
+    height: auto;
+}
+
+.employee-card div{
+    width: 100%;
+    padding-left: 20px;
+    font-size: 1.9rem;
+}
+
+.span-bold{
+    font-weight: bolder;
+    font-family: 'calibri';
+}
+
+.datails-button{
+    margin-top: 20px;
+    width: 40%;
+    padding: 10px;
+    font-size: 1.6rem;
+    font-family: 'Ubuntu';
+    background-color: #5D8BF4;
+    color: white;
+    border: transparent 1px solid;
+    border-radius: 5px;
+}
+
+.datails-button:hover{
+    background-color: white;
+    color: #5D8BF4;
+    border: #5D8BF4 1px solid;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.modal{
+    backdrop-filter: blur(20px);
+    position:fixed;
+    padding:0;
+    margin:0;
+
+    top:0;
+    left:0;
+
+    width: 100%;
+    height: 100%;
+    background-color: rgba(61, 61, 61, 0.467);
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

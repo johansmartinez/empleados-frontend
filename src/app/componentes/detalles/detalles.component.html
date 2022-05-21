@@ -1,0 +1,12 @@
+<div class="container" >
+    <img class="img-banner" [src]="empleadosService.seleccionado.avatar" alt="">
+    {{empleadosService.seleccionado.nombre}} {{empleadosService.seleccionado.apellido}}
+
+    <div class="detail-body">
+        <span class="span-bold"> Documento: </span> <span>{{empleadosService.seleccionado.documento}}</span><br>
+        <span class="span-bold"> Teléfono: </span>  <span>{{empleadosService.seleccionado.telefono}}</span><br>
+        <span class="span-bold"> Profesión: </span> <span>{{empleadosService.seleccionado.profesion}}</span><br>
+        <span class="span-bold"> Pais: </span> <span>{{empleadosService.seleccionado.pais}}</span><br>
+        <span class="span-bold"> Ciudad: </span> <span>{{empleadosService.seleccionado.ciudad}}</span><br>
+    </div>
+</div>
